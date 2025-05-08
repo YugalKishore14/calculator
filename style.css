@@ -73,3 +73,39 @@ button:active {
     background: black;
     transform: translate(2px, 2px);
 }
+
+
+
+@media (max-width: 768px) {
+    .display input {
+        width: 280px;
+        font-size: 32px;
+        padding: 15px;
+    }
+
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .display input {
+        width: 240px;
+        font-size: 28px;
+        padding: 12px;
+    }
+
+    .calculator {
+        padding: 10px;
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        margin: 6px;
+    }
+}
